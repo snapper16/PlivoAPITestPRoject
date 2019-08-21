@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Gmail Suite" duration-ms="6957" started-at="2019-08-21T13:08:55Z" finished-at="2019-08-21T13:09:02Z">
+    <groups>
+    </groups>
+    <test name="FB" duration-ms="6957" started-at="2019-08-21T13:08:55Z" finished-at="2019-08-21T13:09:02Z">
+      <class name="com.plivo.api.tests.SlackTest">
+        <test-method status="PASS" signature="preSetUp()[pri:0, instance:com.plivo.api.tests.SlackTest@7823a2f9]" name="preSetUp" is-config="true" duration-ms="5" started-at="2019-08-21T13:08:55Z" finished-at="2019-08-21T13:08:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetUp -->
+        <test-method status="PASS" signature="AddErrorTest()[pri:1, instance:com.plivo.api.tests.SlackTest@7823a2f9]" name="AddErrorTest" duration-ms="1729" started-at="2019-08-21T13:08:55Z" finished-at="2019-08-21T13:08:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddErrorTest -->
+        <test-method status="PASS" signature="joinChannel()[pri:2, instance:com.plivo.api.tests.SlackTest@7823a2f9]" name="joinChannel" duration-ms="287" started-at="2019-08-21T13:08:57Z" finished-at="2019-08-21T13:08:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- joinChannel -->
+        <test-method status="PASS" signature="renameChannel()[pri:3, instance:com.plivo.api.tests.SlackTest@7823a2f9]" name="renameChannel" duration-ms="3720" started-at="2019-08-21T13:08:57Z" finished-at="2019-08-21T13:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- renameChannel -->
+        <test-method status="PASS" signature="listChannelsAndValidate()[pri:4, instance:com.plivo.api.tests.SlackTest@7823a2f9]" name="listChannelsAndValidate" duration-ms="356" started-at="2019-08-21T13:09:01Z" finished-at="2019-08-21T13:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listChannelsAndValidate -->
+        <test-method status="PASS" signature="archiveChannel()[pri:5, instance:com.plivo.api.tests.SlackTest@7823a2f9]" name="archiveChannel" duration-ms="403" started-at="2019-08-21T13:09:01Z" finished-at="2019-08-21T13:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- archiveChannel -->
+        <test-method status="PASS" signature="validateAcrchivedChannel()[pri:6, instance:com.plivo.api.tests.SlackTest@7823a2f9]" name="validateAcrchivedChannel" duration-ms="443" started-at="2019-08-21T13:09:01Z" finished-at="2019-08-21T13:09:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAcrchivedChannel -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.plivo.api.tests.SlackTest@7823a2f9]" name="cleanUp" is-config="true" duration-ms="0" started-at="2019-08-21T13:09:02Z" finished-at="2019-08-21T13:09:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.plivo.api.tests.SlackTest -->
+    </test> <!-- FB -->
+  </suite> <!-- Gmail Suite -->
+</testng-results>
